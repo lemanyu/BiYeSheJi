@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <com.zhy.android.percent.support.PercentLinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/bg_item_more">
+       <TextView
+           android:id="@+id/tv_more_referra"
+           app:layout_marginRightPercent="2%w"
+           app:layout_textSizePercent="5%w"
+           app:layout_paddingPercent="2%w"
+           android:text="明朝旅行家徐霞客登临黄山时赞叹：“薄海内外之名山，无如徽之黄山。登黄山，天下无山，观止矣！”去黄山，看的是奇绝变幻的云海，追的是气势磅礴的日出。游黄山，带上你的勇气和梦想，登上天都峰，也可以做一个“霞客”"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+      <ImageView
+          android:id="@+id/iv_more"
+          android:scaleType="fitXY"
+          android:src="@drawable/a"
+          app:layout_heightPercent="50%w"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+       <View
+           android:background="#ff0000"
+           app:layout_marginTopPercent="5%w"
+           app:layout_heightPercent="0.5%w"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+   </com.zhy.android.percent.support.PercentLinearLayout>
+    <View
+        android:background="#fff"
+        app:layout_marginTopPercent="3%w"
+        app:layout_heightPercent="0.5%w"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</com.zhy.android.percent.support.PercentLinearLayout>

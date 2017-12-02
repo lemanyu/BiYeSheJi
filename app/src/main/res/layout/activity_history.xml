@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_history"></include>
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+         <com.zhy.android.percent.support.PercentLinearLayout
+
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+             <ImageView
+                 android:visibility="gone"
+                 android:id="@+id/iv_history"
+                 app:layout_heightPercent="50%w"
+                 android:src="@drawable/a"
+                 android:scaleType="fitXY"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+             <TextView
+                 android:textColor="#000000"
+                 android:id="@+id/tv_history_data"
+                 app:layout_paddingPercent="2%w"
+                 app:layout_textSizePercent="5%w"
+                 android:text="我我我我"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+             <com.zhy.android.percent.support.PercentLinearLayout
+                 android:gravity="center_vertical"
+                 android:orientation="horizontal"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 app:layout_marginPercent="1%w">
+                <TextView
+                    app:layout_marginLeftPercent="2%w"
+                    android:id="@+id/tv_history_lunar"
+                    app:layout_textSizePercent="4%w"
+                    app:layout_paddingPercent="1%w"
+                    android:background="@drawable/round_bg"
+                    android:textColor="#ff0000"
+                    android:text="癸巳年闰三月初十"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                 <TextView
+                    android:layout_weight="2"
+                     android:text=""
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" />
+                 <TextView
+                     android:id="@+id/tv_history_year"
+                     app:layout_marginLeftPercent="10%w"
+                     app:layout_textSizePercent="4%w"
+                     android:text="1999年"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" />
+                 <TextView
+                     android:id="@+id/tv_history_month"
+                     app:layout_textSizePercent="4%w"
+                     android:text="12月"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" />
+                 <TextView
+                     app:layout_marginRightPercent="5%w"
+                     android:id="@+id/tv_history_day"
+                     app:layout_textSizePercent="4%w"
+                     android:text="12日"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" />
+             </com.zhy.android.percent.support.PercentLinearLayout>
+
+         </com.zhy.android.percent.support.PercentLinearLayout>
+
+      </ScrollView>
+
+</com.zhy.android.percent.support.PercentLinearLayout>

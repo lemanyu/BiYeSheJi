@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:attr="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                app:layout_marginPercent="1%w"
+                app:layout_textSizePercent="5%w"
+                android:id="@+id/tv_pic_title"
+                android:text="问问"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+          <ImageView
+              app:layout_widthPercent="100%w"
+              app:layout_heightPercent="100%w"
+              android:scaleType="centerCrop"
+              android:id="@+id/giv"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" />
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                app:layout_marginPercent="2%w">
+                <TextView
+                    android:textColor="#ff0000"
+                    android:background="@drawable/round_bg"
+                    app:layout_paddingPercent="1%w"
+                    app:layout_marginLeftPercent="2%w"
+                    android:layout_gravity="right"
+                    android:maxLines="1"
+                    android:text="趣味囧图"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_weight="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv_pic_time"
+                    app:layout_marginRightPercent="2%w"
+                    android:maxLines="1"
+                    android:text="2017-02-09 10:45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </com.zhy.android.percent.support.PercentLinearLayout>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+    </android.support.v7.widget.CardView>
+    <View
+        android:background="#ff0000"
+        app:layout_marginTopPercent="3%w"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</com.zhy.android.percent.support.PercentLinearLayout>

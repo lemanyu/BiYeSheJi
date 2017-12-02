@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:background="#fd0000"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_heightPercent="13%w"
+        android:gravity="center_vertical">
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@id/back"
+            android:background="@mipmap/back"
+            app:layout_marginPercent="1%w"
+            app:layout_widthPercent="6%w"
+            app:layout_heightPercent="6%w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            app:layout_marginPercent="1%w"
+            android:textStyle="normal"
+            app:layout_textSizePercent="5%w"
+            android:text="景点列表"
+            android:textColor="#fff"
+            android:id="@+id/tv_history"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+</LinearLayout>

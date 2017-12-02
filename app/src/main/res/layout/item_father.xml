@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+         android:textColor="#ffba3d"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@mipmap/sheng"
+        app:layout_marginLeftPercent="3%w"
+        app:layout_textSizePercent="7%w"
+        android:layout_marginLeft="40dp"
+        android:text="父亲"
+        android:textSize="30sp"
+        android:id="@+id/tv_father"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</com.zhy.android.percent.support.PercentLinearLayout>

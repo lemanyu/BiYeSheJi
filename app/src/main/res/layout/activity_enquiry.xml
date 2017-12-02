@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/top_enquiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+         <com.zhy.android.percent.support.PercentLinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+             <TextView
+                 app:layout_textSizePercent="5%w"
+                 android:layout_weight="1"
+                 android:gravity="center"
+                 android:text="请输入所在城市："
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+             <EditText
+                 android:id="@+id/et_city"
+                 android:hint="例如：北京"
+                 android:layout_weight="2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+         </com.zhy.android.percent.support.PercentLinearLayout>
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_marginTopPercent="2%w">
+            <TextView
+                app:layout_textSizePercent="5%w"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="请输入起始地点："
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+               android:id="@+id/et_star_addr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="例如：西直门" />
+        </com.zhy.android.percent.support.PercentLinearLayout>
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_marginTopPercent="2%w">
+            <TextView
+                app:layout_textSizePercent="5%w"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="  请输入目的地："
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/et_end_addr"
+                android:hint="例如：西单"
+                android:layout_weight="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </com.zhy.android.percent.support.PercentLinearLayout>
+        <Button
+            android:id="@+id/bt_enquiry"
+            app:layout_marginTopPercent="2%w"
+            android:layout_gravity="center"
+            app:layout_widthPercent="100%w"
+            app:layout_textSizePercent="5%w"
+            android:textColor="#fff"
+            android:text="开始查询"
+            android:background="#ff0000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+</LinearLayout>

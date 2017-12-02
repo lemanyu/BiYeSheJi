@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:drawablePadding="5dp"
+        android:drawableLeft="@mipmap/chengshi"
+        app:layout_textSizePercent="5%w"
+        app:layout_marginLeftPercent="8%w"
+        android:text="儿子"
+        android:textColor="#ff0000"
+        android:textSize="20sp"
+        android:id="@+id/tv_son"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</com.zhy.android.percent.support.PercentLinearLayout>

@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/top_horoscope"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/aiqingyunshi1"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/caifuyunshi1"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/gongzuoyunshi1"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/aiqing1"
+                        android:textColor="#ff0000"
+                        android:gravity="center"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/caifu1"
+                        android:textColor="#ff0000"
+                        android:gravity="center"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/gongzuo1"
+                        android:textColor="#ff0000"
+                        android:gravity="center"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </com.zhy.android.percent.support.PercentLinearLayout>
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/shijian1"
+                        android:gravity="center"
+                        android:textColor="#ff0000"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/shuzi1"
+                        android:gravity="center"
+                        android:textColor="#ff0000"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/yanse1"
+                        android:gravity="center"
+                        android:textColor="#ff0000"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </com.zhy.android.percent.support.PercentLinearLayout>
+                <TextView
+                    android:id="@+id/day_general"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.zhy.android.percent.support.PercentLinearLayout>
+            <View
+                app:layout_marginTopPercent="1%w"
+                android:background="#ff0000"
+                app:layout_heightPercent="0.5%w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                app:layout_marginTopPercent="1%w"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#ff0000"
+                    app:layout_textSizePercent="5%w"
+                    android:layout_gravity="center"
+                    android:text="明日运势"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/aiqingyunshi2"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/caifuyunshi2"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/gongzuoyunshi2"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/aiqing2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#ff0000" />
+
+                    <TextView
+                         android:id="@+id/caifu2"
+                        android:textColor="#ff0000"
+                        android:gravity="center"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/gongzuo2"
+                        android:textColor="#ff0000"
+                        android:gravity="center"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </com.zhy.android.percent.support.PercentLinearLayout>
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/shijian2"
+                        android:gravity="center"
+                        android:textColor="#ff0000"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/shuzi2"
+                        android:gravity="center"
+                        android:textColor="#ff0000"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/yanse2"
+                        android:gravity="center"
+                        android:textColor="#ff0000"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </com.zhy.android.percent.support.PercentLinearLayout>
+                <TextView
+                    android:id="@+id/tommor_general"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.zhy.android.percent.support.PercentLinearLayout>
+            <View
+                app:layout_marginTopPercent="1%w"
+                android:background="#ff0000"
+                app:layout_heightPercent="0.5%w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                app:layout_marginTopPercent="1%w"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#ff0000"
+                    app:layout_textSizePercent="5%w"
+                    android:layout_gravity="center"
+                    android:text="本周运势"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/aiqingyunshi3"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/caifuyunshi3"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/gongzuoyunshi3"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/aiqing3"
+                        android:textColor="#ff0000"
+                        android:gravity="center"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                       android:id="@+id/caifu3"
+                        android:textColor="#ff0000"
+                        android:gravity="center"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/gongzuo3"
+                        android:textColor="#ff0000"
+                        android:gravity="center"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </com.zhy.android.percent.support.PercentLinearLayout>
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/shijian3"
+                        android:gravity="center"
+                        android:textColor="#ff0000"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/shuzi3"
+                        android:gravity="center"
+                        android:textColor="#ff0000"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/yanse3"
+                        android:gravity="center"
+                        android:textColor="#ff0000"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </com.zhy.android.percent.support.PercentLinearLayout>
+                <TextView
+                    android:id="@+id/week_general"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.zhy.android.percent.support.PercentLinearLayout>
+            <View
+                app:layout_marginTopPercent="1%w"
+                android:background="#ff0000"
+                app:layout_heightPercent="0.5%w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                app:layout_marginTopPercent="1%w"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#ff0000"
+                    app:layout_textSizePercent="5%w"
+                    android:layout_gravity="center"
+                    android:text="本月运势"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/guiren"
+                        android:textColor="#ff0000"
+                        android:gravity="center"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/xiaoren"
+                        android:textColor="#ff0000"
+                        android:gravity="center"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/yuanfen"
+                        android:textColor="#ff0000"
+                        android:gravity="center"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                </com.zhy.android.percent.support.PercentLinearLayout>
+                <TextView
+                    android:id="@+id/aiqingyunshi4"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/caifuyunshi4"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/gongzuoyunshi4"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/aiqing4"
+                        android:textColor="#ff0000"
+                        android:gravity="center"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/caifu4"
+                        android:textColor="#ff0000"
+                        android:gravity="center"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/gongzuo4"
+                        android:textColor="#ff0000"
+                        android:gravity="center"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </com.zhy.android.percent.support.PercentLinearLayout>
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/shijian4"
+                        android:gravity="center"
+                        android:textColor="#ff0000"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/shuzi4"
+                        android:gravity="center"
+                        android:textColor="#ff0000"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/yanse4"
+                        android:gravity="center"
+                        android:textColor="#ff0000"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </com.zhy.android.percent.support.PercentLinearLayout>
+
+                <TextView
+                    android:id="@+id/month_general"
+                    android:textColor="#ff0000"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.zhy.android.percent.support.PercentLinearLayout>
+            <View
+                app:layout_marginTopPercent="1%w"
+                android:background="#ff0000"
+                app:layout_heightPercent="0.5%w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</com.zhy.android.percent.support.PercentLinearLayout>
